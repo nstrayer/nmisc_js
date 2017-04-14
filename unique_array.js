@@ -4,12 +4,12 @@
 //[1,2,3,4,4,5,5].unique()
 //>[1,2,3,4,5]
 
-Array.prototype.unique = function() {
-				    var arr = [];
-				    for(var i = 0; i < this.length; i++) {
-				        if(!arr.includes(this[i])) {
-				            arr.push(this[i]);
-				        }
-				    }
-				    return arr;
-				}
+Array.prototype.unique = function () {
+	var arr = [];
+	for (var i = 0; i < this.length; i++) {
+		if (!arr.includes(this[i])) {
+			arr.push(this[i]);
+		}
+	}
+	return arr;
+};
